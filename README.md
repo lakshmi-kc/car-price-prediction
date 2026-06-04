@@ -1,5 +1,7 @@
+
 🚗 Car Price Prediction
 A Machine Learning project to predict the selling price of used cars in India using the CarDekho dataset.
+
 
 📌 Project Overview
 This project uses the CarDekho India dataset containing details of used cars. The goal is to predict the selling price of a car based on its features like brand, year, fuel type, transmission, and engine power.
