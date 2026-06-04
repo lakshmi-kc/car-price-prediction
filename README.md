@@ -1,43 +1,55 @@
-
-🚗 Car Price Prediction
+# 🚗 Car Price Prediction
 
 A Machine Learning project to predict the selling price of used cars in India using the CarDekho dataset.
 
+---
 
-📌 Project Overview
+## 📌 Project Overview
 
-This project uses the CarDekho India dataset containing details of used cars. The goal is to predict the selling price of a car based on its features like brand, year, fuel type, transmission, and engine power.
+This project uses the CarDekho India dataset containing details of used cars. The goal is to predict the selling price of a car based on features like brand, year, fuel type, transmission, and engine power.
 
-📂 Dataset Features
+---
 
-FeatureDescriptionnameCar brand and modelyearManufacturing yearkm_drivenKilometers drivenfuelFuel type (Petrol/Diesel/CNG)seller_typeIndividual or DealertransmissionManual or AutomaticownerNumber of previous ownersengineEngine capacity (CC)max_powerMaximum power (bhp)selling_priceTarget — car selling price
+## 📂 Dataset Features
 
-🛠️ Tools & Libraries
+| Feature | Description |
+|---------|-------------|
+| `name` | Car brand and model |
+| `year` | Manufacturing year |
+| `km_driven` | Kilometers driven |
+| `fuel` | Fuel type (Petrol/Diesel/CNG) |
+| `seller_type` | Individual or Dealer |
+| `transmission` | Manual or Automatic |
+| `owner` | Number of previous owners |
+| `engine` | Engine capacity in CC |
+| `max_power` | Maximum power in bhp |
+| `selling_price` | Target — car selling price |
 
-Show Image
-Show Image
-Show Image
+---
 
+## 🛠️ Tools & Libraries
 
-Data Processing: Pandas, NumPy, LabelEncoder
-Visualization: Matplotlib, Seaborn
-ML Models: Regression models via Scikit-Learn
+- **Data Processing:** Pandas, NumPy, LabelEncoder
+- **Visualization:** Matplotlib, Seaborn
+- **ML Models:** Regression models via Scikit-Learn
 
+---
 
-🔍 Project Workflow
+## 🔍 Project Workflow
 
-Data Loading & Exploration — shape, null values, statistics
-Data Cleaning — handling missing values and outliers
-Label Encoding — converting categorical features
-EDA — price distribution, feature correlations
-Train-Test Split — 80% train, 20% test
-Model Training — Regression models trained and evaluated
-Evaluation — R² Score, MAE, RMSE
+1. Data Loading and Exploration
+2. Data Cleaning — handling missing values and outliers
+3. Label Encoding — converting categorical features
+4. EDA — price distribution and feature correlations
+5. Train-Test Split
+6. Model Training and Evaluation
+7. Evaluation — R2 Score, MAE, RMSE
 
+---
 
-👩‍💻 Author
-Lakshmi K C
+## 👩‍💻 Author
 
-📧 lakshmikc11@gmail.com
-🔗 LinkedIn
-🐙 GitHub
+**Lakshmi K C**
+- 📧 lakshmikc11@gmail.com
+- 🔗 [LinkedIn](https://www.linkedin.com/in/lakshmi-k-c-147840381)
+- 🐙 [GitHub](https://github.com/lakshmi-kc)
